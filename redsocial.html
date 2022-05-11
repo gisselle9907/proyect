@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+<body class="bg-secondary">
+    <div id="navbar" class="container-fluid" style="background-color: white;">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-2 d-grid gap-2">
+                            <button class="btn btn-primary">DH</button>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control bg-light" placeholder="Buscar" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-8">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                              </ul>
+                        </div>
+                    
+                        <!--Estos son los botones a la derecha, donde está la foto de perfil-->
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">A</button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">B</button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">C</button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary">D</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+           
+    <div class="container-fluid mt-4">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-3">
+                    <div class="card" style="height: 850px;">
+                        <div class="title">
+                            
+                        </div>
+                        <div class="card-body">
+                            <div class="content">
+                                <span></span>
+                                <div class="img">
+                                    <img src="lilihz.jpeg" alt="" width="200px" height="200px">
+                                </div>
+                                <h4>Lili Hernandez</h4>
+                                <h6>Sistemas informaticos</h6>
+                                
+                                <p>Me encantaría cambiar el mundo, pero no me dan el código fuente.</p>
+                                <div class="hstack gap-2 gap-xl-3 justify-content-center">
+                                    <!-- Elemento de estadísticas de usuario -->
+                                    <div>
+                                      <h6 class="mb-0">256</h6>
+                                      <small>Fotos</small>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <div>
+                                      <h6 class="mb-0">2.5K</h6>
+                                      <small>Seguidores</small>
+                                    </div>
+                                    <!-- Divisor -->
+                                    <div class="vr"></div>
+                                    
+                                    <div>
+                                      <h6 class="mb-0">365</h6>
+                                      <small>Siguiendo</small>
+                                    </div>
+                                  </div>
+                                  </div>
+                                  <hr>
+                  <ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://th.bing.com/th/id/R.fb69e69ee987179ed3f4a9af6942f942?rik=4gTw1owhFarhPA&pid=ImgRaw&r=0" alt="" width="20" height="20"><span>Publicaciones </span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://th.bing.com/th/id/OIP.CyHl79NOMCi0lwb-SikhyQHaHa?pid=ImgDet&rs=1" alt=""width="20" height="20"><span>Conexiones </span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://th.bing.com/th/id/R.9871efef840c91c1bd6ef09a45d2b291?rik=xUj3SHyBE3RsHQ&pid=ImgRaw&r=0" alt=""width="20" height="20"><span>Últimas noticias</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://thumbs.dreamstime.com/b/print-152103100.jpg" alt=""width="20" height="20"><span>Eventos </span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://th.bing.com/th/id/OIP.R9XTHd1j4_1rR0IfjxWKPAHaHa?pid=ImgDet&rs=1" alt=""width="20" height="20"><span>Grupos </span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://th.bing.com/th/id/R.a445b1dada130d63012d54551d10c674?rik=tlDxHWya7RN2IQ&pid=ImgRaw&r=0" alt=""width="20" height="20"><span>Notificaciones</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/home"> <img class="me-2 h-20px fa-fw" src="https://passwallet.app/assets/less/icons/ionicons/src/ios7-cog.svg" alt=""width="20" height="20"><span>Ajustes </span></a>
+                    </li>
+                  </ul>
+                  </div>
+                    <div class="card-footer text-center py-2">
+                        <a class="btn btn-link btn-sm" href="https://twitter.com/liliHdz0">Ver perfil </a>
+                      </div>
+                    </div>
+
+                    <ul class="nav small mt-4 justify-content-center lh-1">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#!">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#!">Ajustes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" target="_blank" href="#!">Soporte </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" target="_blank" href="#!">Documentos </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#!">Ayuda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#!">Terminos y privacidad</a>
+                        </li>
+                      </ul>
+                      
+                      <p class="small text-center mt-1">©2022 <a class="text-body" target="_blank" href="#!"> Webestica </a></p>
+                </div>
+                
+                
+      <div class="col-md-8 col-lg-6 vstack gap-4">
+        <!-- Story START -->
+        <div class="row p-6">
+            <div class="col-3"><div style="background-color: beige;height: 125px;" class="centro">
+               <button style="height:125px;width: 117px;border: 0ch;" alt="" >  Publicar una historia</button> </div></div>
+            <div class="col-3"><div style="background-color: beige;" class="centro">
+                <img src="lili.jpeg" style="height:125px;width: 117px;" alt=""></div></div>
+            <div class="col-3"><div style="background-color: beige;" class="centro">
+                <img src="bob.png" style="height:125px;width: 117px;" alt=""></div></div>
+            <div class="col-3"><div style="background-color: beige;" class="centro"> 
+                <img src="GL.jpeg" style="height:125px;width: 117px;" alt=""></div></div>
+        </div>
+        <!-- Story END -->
+
+        
+        <div class="card card-body">
+          <div class="d-flex mb-3">
+            <div class="avatar avatar-xs me-2">
+              <a href="#"> <img class="avatar-img rounded-circle" src="lilihz.jpeg" alt="" width="50px" height="50px"> </a>
+            </div>
+
+            <form class="w-100">
+              <textarea class="form-control pe-4 border-0" rows="2" data-autoresize placeholder="Comparte tus pensamientos..."></textarea>
+            </form>
+          </div>
+          
+          <ul class="nav nav-pills nav-stack small fw-normal">
+            <li class="nav-item">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" data-bs-toggle="modal" data-bs-target="#feedActionPhoto"> <i class="bi bi-image-fill text-success pe-2"></i>Foto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" data-bs-toggle="modal" data-bs-target="#feedActionVideo"> <i class="bi bi-camera-reels-fill text-info pe-2"></i>Video</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link bg-light py-1 px-2 mb-0" data-bs-toggle="modal" data-bs-target="#modalCreateEvents"> <i class="bi bi-calendar2-event-fill text-danger pe-2"></i>Evento </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#!" data-bs-toggle="modal" data-bs-target="#modalCreateFeed"> <i class="bi bi-emoji-smile-fill text-warning pe-2"></i>Opinion /Actividad</a>
+            </li>
+            <li class="nav-item dropdown ms-lg-auto">
+              <a class="nav-link bg-light py-1 px-2 mb-0" href="#" id="feedActionShare" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-three-dots"></i>
+              </a>
+              
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="feedActionShare">
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-envelope fa-fw pe-2"></i>Crear una encuesta</a></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-bookmark-check fa-fw pe-2"></i>Hacer una pregunta </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Ayuda</a></li>
+              </ul>
+            </li>
+          </ul>
+             
+        </div>
+        <div class="card">
+          
+            <div class="card-header border-0 pb-0">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  
+                  <div class="avatar avatar-story me-2">
+                    <a href="#!"> <img class="avatar-img rounded-circle" src="https://www.utsunomiya-chintai.jp/sys/upload/voice_123.gif?1624926629" alt="" width="50px" height="50px"> </a>
+                  </div>
+                  
+                  <div>
+                    <div class="nav nav-divider">
+                      <h6 class="nav-item card-title mb-0"> <a href="#!"> Lori Ferguson </a></h6>
+                      <span class="nav-item small"> 2hr</span>
+                    </div>
+                    <p class="mb-0 small">dessarollador web</p>
+                  </div>
+                </div>
+                
+                <div class="dropdown">
+                  <a href="#" class="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-three-dots"></i>
+                  </a>
+                  
+                </div>
+
+              </div>
+            </div>
+            <div class="card-body">
+                <p>Me siento emocionado.</p>
+                <!-- Card img -->
+                <img class="card-img" src="img.jpeg" alt="Post" width="100px" height="200px">
+                
+                <ul class="nav nav-stack py-3 small">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#!"> <i class="bi bi-hand-thumbs-up-fill pe-1"></i>Me gusta (56)</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#!"> <i class="bi bi-chat-fill pe-1"></i>Comentarios (12)</a>
+                  </li>
+                 
+                  <li class="nav-item dropdown ms-sm-auto">
+                    <a class="nav-link mb-0" href="#" id="cardShareAction" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="bi bi-reply-fill flip-horizontal ps-1"></i>Compartido (3)
+                    </a>
+                    
+                  </li>
+                  
+                </ul>
+                <div class="d-flex mb-3">
+                    
+                    <div class="avatar avatar-xs me-2">
+                      <a href="#!"> <img class="avatar-img rounded-circle" src="lilihz.jpeg" alt="" width="50px" height="50px"> </a>
+                    </div>
+                    
+                    <form class="w-100">
+                      <textarea data-autoresize class="form-control pe-4 bg-light" rows="1" placeholder="Agregar comentario..."></textarea>
+                    </form>
+                  </div>
+                  <div class="card">
+                    
+                    <div class="card-header border-0 pb-0">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                          
+                          <div class="avatar avatar-story me-2">
+                            <a href="#!"> <img class="avatar-img rounded-circle" src="https://th.bing.com/th/id/OIP.WALx5fcsazjnPPmhCsfnDwHaHa?pid=ImgDet&w=500&h=500&rs=1" alt="" width="50px" height="50px"> </a>
+                          </div>
+                          
+                          <div>
+                            <div class="nav nav-divider">
+                              <h6 class="nav-item card-title mb-0"> <a href="#!"> Gisselle Hernandez </a></h6>
+                              <span class="nav-item small"> 1d</span>
+                            </div>
+                            <p class="mb-0 small">09 Mayo 12:00</p>
+                          </div>
+                        </div>
+                        
+                        <div class="dropdown">
+                          <a href="#" class="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardFeedAction2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-three-dots"></i>
+                          </a>
+                          
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="card-body pb-0">
+                      <p>Feliz  </p>
+                    </div>
+                      
+                      <div class="overflow-hidden fullscreen-video w-100">
+          
+                        
+                        <div class="player-wrapper overflow-hidden">
+                          <video width="320" height="240" controls>
+                            <source src="Pr.mp4" type="video/mp4">
+                            
+                          </video>
+                          <ul class="nav nav-stack py-3 small">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#!"> <i class="bi bi-hand-thumbs-up-fill pe-1"></i>Me gusta (120)</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#!"> <i class="bi bi-chat-fill pe-1"></i>Comentarios (15)</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown ms-sm-auto">
+                              <a class="nav-link mb-0" href="#" id="cardShareAction" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-reply-fill flip-horizontal ps-1"></i>Compartido (4)
+                              </a>
+                              
+                            </li>
+                            
+                          </ul>
+                          <div class="d-flex mb-3">
+                              
+                              <div class="avatar avatar-xs me-2">
+                                <a href="#!"> <img class="avatar-img rounded-circle" src="lilihz.jpeg" alt="" width="50px" height="50px"> </a>
+                              </div>
+                              
+                              <form class="w-100">
+                                <textarea data-autoresize class="form-control pe-4 bg-light" rows="1" placeholder="Agregar comentario..."></textarea>
+                              </form>
+                            </div>
+                        </div>
+                        
+                      </div>
+                      
+                      
+                    </div>
+                    <div class="card">
+                    <div class="card-header border-0 pb-0">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <div class="d-flex align-items-center">
+                          <div class="avatar avatar-story me-2">
+                              <a href="#!"> <img class="avatar-img rounded-circle" src="https://th.bing.com/th/id/OIP.QaMv9x7GkSHC3kac_Vs88wHaHa?pid=ImgDet&rs=1" alt="" width="50px" height="50px"> </a>
+                            </div>
+                            
+                            <div>
+                              <div class="nav nav-divider">
+                                <h6 class="nav-item card-title mb-0"> <a href="#!"> Carlos Hernandez </a></h6>
+                                <span class="nav-item small"> 3hr</span>
+                              </div>
+                              <p class="mb-0 small">10 Mayo 15:00</p>
+                            </div>
+                          </div>
+                          
+                          <div class="dropdown">
+                            <a href="#" class="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardFeedAction2" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bi bi-three-dots"></i>
+                            </a>
+                            
+                            
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="card-body pb-0">
+                        <p>Paseo </p>
+                      </div>
+                        
+                        <div class="overflow-hidden fullscreen-video w-100">
+            
+                         
+                          <div class="player-wrapper overflow-hidden">
+                            <video width="320" height="240" controls>
+                              <source src="GlH.mp4" type="video/mp4">
+                              
+                            </video>
+                            <ul class="nav nav-stack py-3 small">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#!"> <i class="bi bi-hand-thumbs-up-fill pe-1"></i>Me gusta (150)</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#!"> <i class="bi bi-chat-fill pe-1"></i>Comentarios (22)</a>
+                              </li>
+                              
+                              <li class="nav-item dropdown ms-sm-auto">
+                                <a class="nav-link mb-0" href="#" id="cardShareAction" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="bi bi-reply-fill flip-horizontal ps-1"></i>Compartido (1)
+                                </a>
+                                
+                              </li>
+                             
+                            </ul>
+                            <div class="d-flex mb-3">
+                                
+                                <div class="avatar avatar-xs me-2">
+                                  <a href="#!"> <img class="avatar-img rounded-circle" src="lilihz.jpeg" alt="" width="50px" height="50px"> </a>
+                                </div>
+                                
+                                <form class="w-100">
+                                  <textarea data-autoresize class="form-control pe-4 bg-light" rows="1" placeholder="Agregar comentario..."></textarea>
+                                </form>
+                              </div>
+                          </div>
+                          
+                        </div>
+                        
+                        
+                      </div>
+            </div>
+            
+          </div>
+          
+    </div>
+    
+    <div class="col-lg-3">
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-12">
+            <div class="card">
+              <div class="card-header pb-0 border-0">
+                <h5 class="card-title mb-0">A quién seguir</h5>
+              </div>
+              <div class="card-body">
+             <div class="hstack gap-2 mb-3">
+                  <div class="avatar">
+                    <a href="#!"><img class="avatar-img rounded-circle" src="https://th.bing.com/th/id/R.f7e707b4f01ca5dd0d10b47819af0cb2?rik=sNweA7dQPtStQw&pid=ImgRaw&r=0" alt="" width="50px" height="50px"></a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a class="h6 mb-0" href="#!">Judy Nguyen </a>
+                    <p class="mb-0 small text-truncate">Presentador</p>
+                  </div>
+                  <a class="btn btn-primary-soft rounded-circle icon-md ms-auto" href="#"><i class="fa-solid fa-plus"> </i></a>
+                </div>
+                 <div class="hstack gap-2 mb-3">
+                    <div class="avatar avatar-story">
+                      <a href="#!"> <img class="avatar-img rounded-circle" src="https://th.bing.com/th/id/R.fd67b74219b2433aacd29d9ff9da5c45?rik=9gid1%2fK3VNuOjg&pid=ImgRaw&r=0" alt="" width="50px" height="50px"> </a>
+                    </div>
+                    <div class="overflow-hidden">
+                      <a class="h6 mb-0" href="#!">Amanda Reed </a>
+                      <p class="mb-0 small text-truncate">Desarrolladora web</p>
+                    </div>
+                    <a class="btn btn-primary-soft rounded-circle icon-md ms-auto" href="#"><i class="fa-solid fa-plus"> </i></a>
+                </div>
+                <div class="hstack gap-2 mb-3">
+                <div class="avatar">
+                    <a href="#"> <img class="avatar-img rounded-circle" src="https://st2.depositphotos.com/1007566/11656/v/950/depositphotos_116560580-stock-illustration-young-man-face-cartoon-design.jpg" alt="" width="50px" height="50px"> </a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a class="h6 mb-0" href="#!">Billy Vasquez </a>
+                    <p class="mb-0 small text-truncate">Presentador</p>
+                  </div>
+                  <a class="btn btn-primary rounded-circle icon-md ms-auto" href="#"><i class="bi bi-person-check-fill"> </i></a>
+                </div>
+                <div class="hstack gap-2 mb-3">
+                  <div class="avatar">
+                    <a href="#"> <img class="avatar-img rounded-circle" src="https://image.freepik.com/vecteurs-libre/avatar-sourire-garcon-expression-faciale-icone-isole-fond-blanc_102172-300.jpg" alt="" width="50px" height="50px"> </a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a class="h6 mb-0" href="#!">Lori Ferguson </a>
+                    <p class="mb-0 small text-truncate">Desarrollador web</p>
+                  </div>
+                   <a class="btn btn-primary-soft rounded-circle icon-md ms-auto" href="#"><i class="fa-solid fa-plus"> </i></a>
+                </div>
+
+                <div class="hstack gap-2 mb-3">
+                  <div class="avatar">
+                    <a href="#"> <img class="avatar-img rounded-circle" src="https://th.bing.com/th/id/OIP.4wJvLj5rByMOH_HnodvXBAAAAA?pid=ImgDet&w=300&h=300&rs=1" alt="" width="50px" height="50px"> </a>
+                  </div>
+                  <div class="overflow-hidden">
+                    <a class="h6 mb-0" href="#!">Carolyn Ortiz </a>
+                    <p class="mb-0 small text-truncate">Presentadora</p>
+                  </div>
+                  <a class="btn btn-primary-soft rounded-circle icon-md ms-auto" href="#"><i class="fa-solid fa-plus"> </i></a>
+                </div>
+                <div class="d-grid mt-3">
+                  <a class="btn btn-sm btn-primary-soft" href="#!">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            <div class="col-sm-6 col-lg-12">
+                <div class="card">
+                  <div class="card-header pb-0 border-0">
+                    <h5 class="card-title mb-0">Noticias de hoy</h5>
+                  </div>
+                  <div class="card-body">
+                    <!-- News item -->
+                    <div class="mb-3">
+                      <h6 class="mb-0"><a href="blog-details.html">Diez preguntas que debes responder con la verdad</a></h6>
+                      <small>2hr</small>
+                    </div>
+                    <!-- News item -->
+                    <div class="mb-3">
+                      <h6 class="mb-0"><a href="blog-details.html">Cinco datos increíbles sobre el dinero</a></h6>
+                      <small>3hr</small>
+                    </div>
+                    <!-- News item -->
+                    <div class="mb-3">
+                      <h6 class="mb-0"><a href="blog-details.html">Los mejores tableros de Pinterest para aprender sobre negocios</a></h6>
+                      <small>4hr</small>
+                    </div>
+                    <!-- News item -->
+                    <div class="mb-3">
+                      <h6 class="mb-0"><a href="blog-details.html">Habilidades que puedes aprender de los negocios</a></h6>
+                      <small>6hr</small>
+                    </div>
+                    <a href="#!" role="button" class="btn btn-link btn-link-loader btn-sm text-secondary d-flex align-items-center" data-bs-toggle="button" aria-pressed="true">
+                      <div class="spinner-dots me-2">
+                        <span class="spinner-dot"></span>
+                        <span class="spinner-dot"></span>
+                        <span class="spinner-dot"></span>
+                      </div>
+                      Ver todas las últimas noticias
+                    </a>
+                  </div>
+                  <!-- Card body END -->
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  
+        
+
+</body>
+</html>
